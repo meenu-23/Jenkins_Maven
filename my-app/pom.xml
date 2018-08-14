@@ -12,6 +12,18 @@
       <!-- This property will be set by the Maven Dependency plugin -->
       <annotatedJdk>${org.checkerframework:jdk8:jar}</annotatedJdk>
   </properties>
+  <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>plugins-releases</name>
+        <url>http://localhost:4567</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>plugins-snapshot</name>
+        <url>http://localhost:4567</url>
+    </snapshotRepository>
+</distributionManagement>
 
   <dependencies>
     <dependency>
