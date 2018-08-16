@@ -13,7 +13,7 @@
       <annotatedJdk>${org.checkerframework:jdk8:jar}</annotatedJdk>
   </properties>
  <distributionManagement>
-    <repository>
+   <!-- <repository>
         <id>deployment</id>
         <name>Internal-releases</name>
         <url>http://localhost:5678/repository/SAMPLE-REL/</url>
