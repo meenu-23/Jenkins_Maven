@@ -12,7 +12,7 @@
       <!-- This property will be set by the Maven Dependency plugin -->
       <annotatedJdk>${org.checkerframework:jdk8:jar}</annotatedJdk>
   </properties>
-  <distributionManagement>
+ <!-- <distributionManagement>
     <repository>
         <id>deployment</id>
         <name>Internal-releases</name>
@@ -23,7 +23,7 @@
         <name>Internal snapshot release</name>
         <url>http://localhost:5678/repository/SAMPLE-SNAP/</url>
     </snapshotRepository>
-</distributionManagement>
+</distributionManagement> -->
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
